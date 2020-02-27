@@ -11,10 +11,12 @@ public:
 
 	void handleInput(float dt);
 	void update(float dt);
-	Bullet* getBullet() {
+	Bullet* getBullet()
+	{
 		return bullet;
-	};
+	}
 
-private:
-	Bullet* bullet;
+
+	Bullet* bullet; // New pointer created, with type Bullet
+
 };

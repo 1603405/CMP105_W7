@@ -8,9 +8,9 @@ Bullet::Bullet()
 	setVelocity(500, 0);
 }
 
-
 Bullet::~Bullet()
 {
+
 }
 
 void Bullet::update(float dt)

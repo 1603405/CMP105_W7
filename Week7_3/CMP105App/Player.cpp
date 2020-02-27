@@ -4,6 +4,8 @@ Player::Player()
 {
 	setPosition(200, 200);
 	setSize(sf::Vector2f(100, 100));
+	bullet = new Bullet(); //this will initialize the pointer (Bullet is the class, parenthesis is used after because it is to be used in the 
+
 }
 
 

@@ -11,7 +11,6 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 
 Level::~Level()
 {
-
 }
 
 // handle user input
@@ -32,7 +31,7 @@ void Level::render()
 	beginDraw();
 	window->draw(player);
 	if(player.fired())
-		window->draw(*player.getBullet());
+	window->draw(*player.getBullet());
 	endDraw();
 }
 
